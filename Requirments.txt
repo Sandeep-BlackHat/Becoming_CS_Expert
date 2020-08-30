@@ -7,3 +7,13 @@ Enthusiasm and a high degree of adaptability.
 Strong analytical and diagnostic skills.
 A current understanding of common web vulnerabilities.
 Maintaining awareness and knowledge of contemporary standards, practices, procedures and methods.
+
+
+***********************Soft Skills***************************
+
+That’s in addition to the aforementioned soft skills; remember, security professionals often need to communicate complicated subjects to people who might not have much of a technical background (such as C-suite executives). With that in mind, mastering the following is usually a perquisite for climbing to more advanced positions on the cybersecurity ladder:
+
+Excellent presentation and communications skills to effectively communicate with management and customers.
+Ability to clearly articulate complex concepts (both written and verbally).
+Ability, understanding, and usage of active listening skills (especially with customers!).
+From a cybersecurity perspective, soft skills will also allow you to identify examples of, and explain, social engineering, which is a pervasive issue within the security community. You can put all kinds of hardware and software security measures in place, but hackers can still use social engineering to convince unsuspecting employees to give them passwords, credentials, and access to otherwise-secure systems.
