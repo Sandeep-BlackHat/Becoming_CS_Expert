@@ -40,3 +40,12 @@ Information Systems Security Architecture Professional (CISSP-ISSAP)
 Information Systems Security Engineering Professional (CISSP-ISSEP)
 Information Systems Security Management Professional (CISSP-ISSMP)
 While these types of certifications are good to have and show employers that the candidate is interested in continuing education, “certifications should be combined with solid industry experience to get the right level of skillset required,” Carson added.
+
+
+***************************Implementation Skills*********************************
+
+Any good cybersecurity pro knows how to examine a company’s security setup from a holistic view, including threat modeling, specifications, implementation, testing, and vulnerability assessment. They also understand security issues associated with operating systems, networking, and virtualization software.
+
+But it’s not just about understanding; it’s also about implementation. They study the architecture of systems and networks, then use that information to identify the security controls in place and how they are used. Same with weaknesses in databases and app deployment.
+
+More junior cybersecurity professionals might use their coding skills to write tools that automate certain security tasks; depending on the company’s technology stack, there is often a choice of pre-built tools that will automate many functions, as well.
