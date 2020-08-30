@@ -17,3 +17,26 @@ Excellent presentation and communications skills to effectively communicate with
 Ability to clearly articulate complex concepts (both written and verbally).
 Ability, understanding, and usage of active listening skills (especially with customers!).
 From a cybersecurity perspective, soft skills will also allow you to identify examples of, and explain, social engineering, which is a pervasive issue within the security community. You can put all kinds of hardware and software security measures in place, but hackers can still use social engineering to convince unsuspecting employees to give them passwords, credentials, and access to otherwise-secure systems.
+
+
+**************************Technical Skills******************************
+
+Which technical skills do cybersecurity pros need? That question is a bit trickier to answer, as there are many sub-disciplines within the cybersecurity field. That being said, many such jobs share a common technical foundation.
+
+For starters, tech pros should understand the architecture, administration, and management of operating systems (various Linux distros, Windows, etc.), networking, and virtualization software. In other words, get to know—and love—things like firewalls and network load balancers. That’s in addition to general programming/software development concepts and software analytics skills.
+
+There’s also the need to understand the more common programming languages, including Java, C/C++, disassemblers, assembly language, and scripting languages (PHP, Python, Perl, or shell).
+
+Many employers demand certifications as a perquisite for employment, and it’s easy to see why. In a recent survey, the International Information System Security Certification Consortium (ISC)² noted that a degree and certifications were often a major factor in hiring. “Cybersecurity certifications are essential to showing the level of knowledge of a cybersecurity professional. However, they should never alone be the only reference,” Joseph Carson, the chief security scientist at security vendor Thycotic, told Dice in an email.
+
+Potentially important certifications include the following:
+
+CEH (Certified Ethical Hacker)
+OSCP (Offensive Security Certified Professional)
+CISA (Certified Information Security Auditor)
+GCIH (GIAC Certified Incident Handler)
+Certified Information Systems Security Professional (CISSP)
+Information Systems Security Architecture Professional (CISSP-ISSAP)
+Information Systems Security Engineering Professional (CISSP-ISSEP)
+Information Systems Security Management Professional (CISSP-ISSMP)
+While these types of certifications are good to have and show employers that the candidate is interested in continuing education, “certifications should be combined with solid industry experience to get the right level of skillset required,” Carson added.
