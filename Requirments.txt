@@ -49,3 +49,14 @@ Any good cybersecurity pro knows how to examine a company’s security setup fro
 But it’s not just about understanding; it’s also about implementation. They study the architecture of systems and networks, then use that information to identify the security controls in place and how they are used. Same with weaknesses in databases and app deployment.
 
 More junior cybersecurity professionals might use their coding skills to write tools that automate certain security tasks; depending on the company’s technology stack, there is often a choice of pre-built tools that will automate many functions, as well.
+
+
+********************************Management Skills****************************************
+
+Senior cybersecurity pros, meanwhile, must organize and coordinate technical vulnerability assessments, including systems and network vulnerability assessments, penetration testing, web application assessments, social engineering assessments, physical security assessments, wireless security assessments and implementing secure infrastructure solutions.
+
+They recommend and set the technical direction for managing security incidents, and ensure the integrity of the resulting process and approach. In terms of using soft skills, they’ll need to explain to management (and show forensically) how an attack was conducted.
+
+******************************Grasping the Big Picture****************************************
+
+Professionals at all levels not only understand security concepts and principles; they also know the most up-to-date privacy and security regulations. For example, the California Consumer Privacy Act of 2018, which offers some modest fines for privacy violations, will become law on Jan. 1, 2020. No wonder many analysts regularly identify security and privacy as the top two issues facing businesses today—failing to maintain security not only leaves data open to hackers, but it can risk fines from government entities increasingly concerned about how data is managed.
