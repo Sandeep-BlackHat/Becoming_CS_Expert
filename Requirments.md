@@ -32,13 +32,21 @@ Many employers demand certifications as a perquisite for employment, and it’s 
 Potentially important certifications include the following:
 
 CEH (Certified Ethical Hacker)
+
 OSCP (Offensive Security Certified Professional)
+
 CISA (Certified Information Security Auditor)
+
 GCIH (GIAC Certified Incident Handler)
+
 Certified Information Systems Security Professional (CISSP)
+
 Information Systems Security Architecture Professional (CISSP-ISSAP)
+
 Information Systems Security Engineering Professional (CISSP-ISSEP)
+
 Information Systems Security Management Professional (CISSP-ISSMP)
+
 While these types of certifications are good to have and show employers that the candidate is interested in continuing education, “certifications should be combined with solid industry experience to get the right level of skillset required,” Carson added.
 
 
