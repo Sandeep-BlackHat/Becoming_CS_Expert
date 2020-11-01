@@ -1,4 +1,4 @@
-******************Solid Work Habits***************************
+# Solid Work Habits
 
 First, you’ll need some essential work habits, including the ability to work methodically (and in a detail-oriented way). The following abilities also come in useful:
 
@@ -9,7 +9,7 @@ A current understanding of common web vulnerabilities.
 Maintaining awareness and knowledge of contemporary standards, practices, procedures and methods.
 
 
-***********************Soft Skills***************************
+# Soft Skills
 
 That’s in addition to the aforementioned soft skills; remember, security professionals often need to communicate complicated subjects to people who might not have much of a technical background (such as C-suite executives). With that in mind, mastering the following is usually a perquisite for climbing to more advanced positions on the cybersecurity ladder:
 
@@ -19,7 +19,7 @@ Ability, understanding, and usage of active listening skills (especially with cu
 From a cybersecurity perspective, soft skills will also allow you to identify examples of, and explain, social engineering, which is a pervasive issue within the security community. You can put all kinds of hardware and software security measures in place, but hackers can still use social engineering to convince unsuspecting employees to give them passwords, credentials, and access to otherwise-secure systems.
 
 
-**************************Technical Skills******************************
+# Technical Skills
 
 Which technical skills do cybersecurity pros need? That question is a bit trickier to answer, as there are many sub-disciplines within the cybersecurity field. That being said, many such jobs share a common technical foundation.
 
@@ -42,7 +42,7 @@ Information Systems Security Management Professional (CISSP-ISSMP)
 While these types of certifications are good to have and show employers that the candidate is interested in continuing education, “certifications should be combined with solid industry experience to get the right level of skillset required,” Carson added.
 
 
-***************************Implementation Skills*********************************
+# Implementation Skills
 
 Any good cybersecurity pro knows how to examine a company’s security setup from a holistic view, including threat modeling, specifications, implementation, testing, and vulnerability assessment. They also understand security issues associated with operating systems, networking, and virtualization software.
 
@@ -51,12 +51,12 @@ But it’s not just about understanding; it’s also about implementation. They 
 More junior cybersecurity professionals might use their coding skills to write tools that automate certain security tasks; depending on the company’s technology stack, there is often a choice of pre-built tools that will automate many functions, as well.
 
 
-********************************Management Skills****************************************
+# Management Skills
 
 Senior cybersecurity pros, meanwhile, must organize and coordinate technical vulnerability assessments, including systems and network vulnerability assessments, penetration testing, web application assessments, social engineering assessments, physical security assessments, wireless security assessments and implementing secure infrastructure solutions.
 
 They recommend and set the technical direction for managing security incidents, and ensure the integrity of the resulting process and approach. In terms of using soft skills, they’ll need to explain to management (and show forensically) how an attack was conducted.
 
-******************************Grasping the Big Picture****************************************
+# Grasping the Big Picture
 
 Professionals at all levels not only understand security concepts and principles; they also know the most up-to-date privacy and security regulations. For example, the California Consumer Privacy Act of 2018, which offers some modest fines for privacy violations, will become law on Jan. 1, 2020. No wonder many analysts regularly identify security and privacy as the top two issues facing businesses today—failing to maintain security not only leaves data open to hackers, but it can risk fines from government entities increasingly concerned about how data is managed.
