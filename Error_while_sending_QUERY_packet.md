@@ -23,19 +23,17 @@ Thats the only guess i can make as mysql might send the data in packets and the 
    1. open your terminal window
 
    1. please write following command in your terminal
+      1. ssh root@yourIP port
+      1. Enter root password
+      
+   1. Now edit your server my.cnf file using below command
+      1.nano /etc/my.cnf  
+      if command is not recognized do this first or try vi then repeat: yum install nano.
 
-   ssh root@yourIP port
-   1. Enter root password
+      OR
 
-   4) Now edit your server my.cnf file using below command
-
-   nano /etc/my.cnf  
-   if command is not recognized do this first or try vi then repeat: yum install nano.
-
-   OR
-
-  vi /etc/my.cnf 
-   5) Add the line under the [MYSQLD] section. :
+      vi /etc/my.cnf 
+   1. Add the line under the [MYSQLD] section. :
 
    max_allowed_packet=524288000 (obviously adjust size for whatever you need) 
    wait_timeout = 100
