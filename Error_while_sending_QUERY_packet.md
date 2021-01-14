@@ -50,7 +50,7 @@ Thats the only guess i can make as mysql might send the data in packets and the 
    This works for me. I hope it should work for you.
 3. Had such a problem when executing forking in php for command line. In my case from time to time the php killed the child process. To fix this, just wait for the process to      complete using the command pcntl_wait($status);
    here's a piece of code for a visual example:
-
+   ```
          #!/bin/php -n
          <?php
          error_reporting(E_ALL & ~E_NOTICE);
@@ -79,3 +79,4 @@ Thats the only guess i can make as mysql might send the data in packets and the 
          error_log(getmypid().' '.$ski.'end my php');
          exit(0);
          ?>
+     ```
