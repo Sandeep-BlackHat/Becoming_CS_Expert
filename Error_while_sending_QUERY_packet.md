@@ -1,9 +1,13 @@
 Ques: I was trying to insert some data into the database but i got this error "Error while sending QUERY packet"
 
 $insertDeta = $conPat->prepare("insert into table1(data) VALUES(:data)");
+
 $insertDeta->bindParam(':data',$data);
+
 $conPat->beginTransaction();    
+
     $insertDeta->execute();
+    
 $conPat->commit();
 
 but what i think the problem is that size of the data is over 16MB.
