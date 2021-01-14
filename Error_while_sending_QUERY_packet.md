@@ -27,23 +27,25 @@ Thats the only guess i can make as mysql might send the data in packets and the 
       1. Enter root password
       
    1. Now edit your server my.cnf file using below command
-      1.nano /etc/my.cnf  
-      if command is not recognized do this first or try vi then repeat: yum install nano.
+      1.nano /etc/my.cnf
+         if command is not recognized do this first or try vi then repeat: yum install nano.
 
-      OR
+         OR
 
-      vi /etc/my.cnf 
+         vi /etc/my.cnf 
    1. Add the line under the [MYSQLD] section. :
 
-   max_allowed_packet=524288000 (obviously adjust size for whatever you need) 
-   wait_timeout = 100
-   6) Control + O (save) then ENTER (confirm) then Control + X (exit file)
+      max_allowed_packet=524288000 (obviously adjust size for whatever you need) 
+      wait_timeout = 100
+      
+   1. Control + O (save) then ENTER (confirm) then Control + X (exit file)
 
-   7) Then restart your mysql server by following command
+   1. Then restart your mysql server by following command
 
-   /etc/init.d/mysql stop
-   /etc/init.d/mysql start
-   8) You can verify by going into PHPMyAdmin or opening a SQL command window and executing:
+      /etc/init.d/mysql stop
+      /etc/init.d/mysql start
+   1. You can verify by going into PHPMyAdmin or opening a SQL command window and executing:
 
-   SHOW VARIABLES LIKE 'max_allowed_packet'
+      **SHOW VARIABLES LIKE 'max_allowed_packet'**
+      
    This works for me. I hope it should work for you.
