@@ -1,4 +1,4 @@
-### Ques: 
+# Query: 
 I was trying to insert some data into the database but i got this error "Error while sending QUERY packet"
 * $insertDeta = $conPat->prepare("insert into table1(data) VALUES(:data)");
 * $insertDeta->bindParam(':data',$data);
@@ -14,7 +14,7 @@ I dont know if PDOs is having problems running the query or transfering 16MB of 
 Thats the only guess i can make as mysql might send the data in packets and the packet cannot hold data as large as 16MB.
 - - - -
 
-# Answer
+# Answer:
 1. You guessed right MySQL have limitation for size of data, you need to break your query in small group of records or you can Change your max_allowed_packet by using SET            GLOBAL max_allowed_packet=524288000;
 2. 
    You can solve this problem by following few steps:
