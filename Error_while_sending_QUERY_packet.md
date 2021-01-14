@@ -49,3 +49,34 @@ Thats the only guess i can make as mysql might send the data in packets and the 
       * **SHOW VARIABLES LIKE 'max_allowed_packet'**
       
    This works for me. I hope it should work for you.
+3. Had such a problem when executing forking in php for command line. In my case from time to time the php killed the child process. To fix this, just wait for the process to      complete using the command pcntl_wait($status);
+   here's a piece of code for a visual example:
+
+         #!/bin/php -n
+         <?php
+         error_reporting(E_ALL & ~E_NOTICE);
+         ini_set("log_errors", 1);
+         ini_set('error_log', '/media/logs/php/fork.log');
+         $ski = substr(str_shuffle(str_repeat("0123456789abcdefghijklmnopqrstuvwxyz", 5)), 0, 5);
+         error_log(getmypid().' '.$ski.' start my php');
+
+         $pid = pcntl_fork();
+         if($pid) {
+         error_log(getmypid().' '.$ski.' start 2');
+         // Wait for children to return. Otherwise they 
+         // would turn into "Zombie" processes
+         // !!!!!! add this !!!!!!
+         pcntl_wait($status);
+         // !!!!!! add this !!!!!!
+         } else {
+         error_log(getmypid().' '.$ski.' start 3');
+         //[03-Apr-2020 12:13:47 UTC] PHP Warning:  Error while sending QUERY packet. PID=18048 in /speed/sport/fortest.php on line 22457
+         mysqli_query($con,$query,MYSQLI_ASYNC);
+         error_log(getmypid().' '.$ski.' sleep child');
+         sleep(15);
+         exit;
+         } 
+
+         error_log(getmypid().' '.$ski.'end my php');
+         exit(0);
+         ?>
