@@ -23,8 +23,8 @@ Thats the only guess i can make as mysql might send the data in packets and the 
    1. open your terminal window
 
    1. please write following command in your terminal
-      1. ssh root@yourIP port
-      1. Enter root password
+      * ssh root@yourIP port
+      * Enter root password
       
    1. Now edit your server my.cnf file using below command
       1.nano /etc/my.cnf
