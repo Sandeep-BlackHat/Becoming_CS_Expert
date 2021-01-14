@@ -4,8 +4,7 @@ $insertDeta = $conPat->prepare("insert into table1(data) VALUES(:data)");
 
 $insertDeta->bindParam(':data',$data);
 
-$conPat->beginTransaction();    
-
+$conPat->beginTransaction();
     $insertDeta->execute();
     
 $conPat->commit();
