@@ -20,12 +20,12 @@ Thats the only guess i can make as mysql might send the data in packets and the 
 2. 
    You can solve this problem by following few steps:
 
-   1) open your terminal window
+   1. open your terminal window
 
-   2) please write following command in your terminal
+   1. please write following command in your terminal
 
    ssh root@yourIP port
-   3) Enter root password
+   1. Enter root password
 
    4) Now edit your server my.cnf file using below command
 
