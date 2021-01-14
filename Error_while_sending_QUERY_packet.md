@@ -1,11 +1,12 @@
 # Query: 
 I was trying to insert some data into the database but i got this error "Error while sending QUERY packet"
+```css
 * $insertDeta = $conPat->prepare("insert into table1(data) VALUES(:data)");
 * $insertDeta->bindParam(':data',$data);
 * $conPat->beginTransaction();
     * $insertDeta->execute();
 * $conPat->commit();
-
+```
 but what i think the problem is that size of the data is over 16MB.
 the data type of the column is set as longtext, which i think can keep data as big as 4GB.
 
@@ -22,31 +23,33 @@ Thats the only guess i can make as mysql might send the data in packets and the 
    1. open your terminal window
 
    1. please write following command in your terminal
+   ```css
       * ssh root@yourIP port
       * Enter root password
-      
+   ```   
    1. Now edit your server my.cnf file using below command
       1.nano /etc/my.cnf
+   ```css   
       * if command is not recognized do this first or try vi then repeat: yum install nano.
          OR
       * vi /etc/my.cnf 
-         
+    ```     
    1. Add the line under the [MYSQLD] section. :
-
+    ```css
       * max_allowed_packet=524288000 (obviously adjust size for whatever you need) 
       * wait_timeout = 100
-      
+    ```  
    1. Control + O (save) then ENTER (confirm) then Control + X (exit file)
 
    1. Then restart your mysql server by following command
-
+    ```css
       * /etc/init.d/mysql stop
       * /etc/init.d/mysql start
-      
+    ```  
    1. You can verify by going into PHPMyAdmin or opening a SQL command window and executing:
-
+    ```css
       * **SHOW VARIABLES LIKE 'max_allowed_packet'**
-      
+    ```
    This works for me. I hope it should work for you.
 3. Had such a problem when executing forking in php for command line. In my case from time to time the php killed the child process. To fix this, just wait for the process to      complete using the command pcntl_wait($status);
    here's a piece of code for a visual example:
