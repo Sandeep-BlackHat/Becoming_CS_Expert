@@ -1,4 +1,4 @@
-<h1>Find Commands for Linux</h1>
+Find Commands for Linux
 
 kali@kali:~$ whatis find
 kali@kali:~$ man find
