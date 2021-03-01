@@ -1,4 +1,3 @@
-<h1>Commands</h1>
 
 kali@kali:~$ whoami
 kali@kali:~$ hostname
