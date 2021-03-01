@@ -1,4 +1,3 @@
-
 kali@kali:~$ whoami
 kali@kali:~$ hostname
 kali@kali:~$ sudo vim /etc/hostname
